@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.App {
+  /* border: 10px solid black; */
+  height: 100vh;
+  position: relative;
+  z-index: 1 !important;
+}
+
+.image__wrapper {
+  /* border: 10px solid green; */
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  /* position: relative; */
+  position: absolute;
+}
+
+.image__wrapper img {
+  width: 100%;
+  height: 100%;
+  z-index: 1 !important;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+}
+/* .App > .overlay {
+  border: 1px solid red;
+
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+} */
+
+/* .App > .overlay > .image__app img {
+  position: absolute;
+} */
+
+/* .image__app {
+  background: rgba(0, 0, 0, 0.3);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+} */
+
+.today__weather {
+  z-index: 2 !important;
+  position: relative;
+}
+
+.forcast {
+  z-index: 2 !important;
+  position: relative;
+}
+
+@media only screen and (max-width: 390px) {
+  .image__wrapper {
+    /* border: 10px solid green; */
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    position: absolute;
+  }
+}

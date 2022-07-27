@@ -1,0 +1,40 @@
+.cardforcast {
+  /* border: 1px solid green; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 60px;
+}
+
+.cardforcast:nth-last-child(1) {
+  margin-right: 0;
+}
+
+.cardforcast > img {
+  /* margin-top: 40px;
+  margin-bottom: 40px; */
+  width: 100px;
+}
+
+.cardforcast > h3 {
+  /* font-size: 14px; */
+  font-weight: 150;
+}
+
+@media only screen and (max-width: 550px) {
+  .cardforcast > img {
+    /* margin-top: 40px;
+  margin-bottom: 40px; */
+    width: 60px;
+  }
+
+  .cardforcast {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-right: 10px; */
+  }
+}
