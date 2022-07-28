@@ -5,7 +5,7 @@ utilizing them to showcase today's weather and forcast for 5 days with different
 
 # Demo
 
-https://ephemeral-biscuit-ccf127.netlify.app/
+https://legendary-blancmange-49be4b.netlify.app/
 
 # To start
 
